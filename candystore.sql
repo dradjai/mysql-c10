@@ -47,3 +47,4 @@ values(1, 14.95, 2.50),
 select * from customers 
 join orders on orders.customerId = customers.customerId
 where firstName = 'Damian';
+
